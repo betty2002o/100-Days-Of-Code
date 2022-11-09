@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(228, 242, 242);
+  line-height: 20px;
+}
+.container {
+  background-color: rgba(198, 223, 232, 0.768);
+  margin: 20px auto;
+  width: 600px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1 {
+  text-align: center;
+}
+form {
+  text-align: left;
+}
+label {
+  display: block;
+}
+.radio-label {
+  display: inline;
+}
+
+.sectionone input {
+  width: 99%;
+}
+
+textarea {
+  width: 99%;
+}
+select {
+  width: 99%;
+}
+.radio-input {
+  width: none;
+}
+
+button {
+  margin: 5px;
+  border-radius: 5px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.submit {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
